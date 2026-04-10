@@ -1,0 +1,146 @@
+ .hero {
+    text-align: center;
+    background: linear-gradient(135deg, #0f172a,#1e293b,#6366f1);
+    color: #111 ;
+    padding: 50px 0px;
+}
+
+.hero h1 {
+    font-size: 35px;
+    color: white;
+}
+
+.hero p {
+    font-size: 17px;
+    color: white;
+}
+
+.about {
+    text-align: center;
+    background: linear-gradient(135deg, lightgreen,green,darkgreen);
+    color: black;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+.about h2 {
+    font-size: 30px;
+    color: white;
+}
+.about p {
+    font-size: 17px;
+    color: white;
+}
+.projects {
+    text-align: center;
+    color: white;
+    padding: 40px 10px;
+    background: linear-gradient(135deg, white, whitesmoke);
+     
+    margin-top: 20px;
+}
+.propject-container {
+    display:flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    background: linear-gradient(135deg, lightblue,blue,darkblue);
+
+}
+.project-card {
+    background: linear-gradient(135deg , chocolate,orange);
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+    gap: 20px;
+    color: black;
+}
+
+.project-card a {
+    text-decoration: none;
+    color: black;
+    background: linear-gradient(135deg, );
+    padding: 0 5px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.projects h2 {
+    font-size: 30px;
+    color: #0f172a;
+    
+}
+
+.project-card :hover {
+    transform: translate(-5px);
+    box-shadow: 0 0 20px green;
+}
+
+.contact {
+    padding: 80px 20px;
+    text-align: center;
+    background: #f5f5f5;
+}
+
+.contact a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+#typing::after {
+    content: "|";
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: bisque;
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.whatsapp:hover {
+    transform: scale(1.1);
+}
+
+.hero-content {
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
