@@ -5,7 +5,7 @@ function typeEffect() {
     if (i < text.length) {
         document.getElementById("typing").innerHTML += text.charAt(i);
         i++;
-        setTimeout(typeEffect, 30);
+        setTimeout(typeEffect, 80);
     }
 }
 
