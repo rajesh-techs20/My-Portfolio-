@@ -1,4 +1,4 @@
-const text = "Frontend Developer | Website Builder";
+const text = "Frontend Developer | Web Designer";
 let i = 0;
 
 function typeEffect() {
