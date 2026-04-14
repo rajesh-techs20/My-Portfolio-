@@ -20,35 +20,4 @@
   font-size: 15px;
 }
 
-/* Buttons */
-btn {
-  background: white;
-  color: #1e3a8a;
-  padding: 10px 20px;
-  border-radius: 25px;
-  text-decoration: none;
-  margin-right: 10px;
-  transition: 0.3s;
-}
-
-btn:hover {
-  background: #e0e7ff;
-}
-
-btn-outline {
-  border: 2px solid white;
-  padding: 10px 20px;
-  border-radius: 25px;
-  text-decoration: none;
-  color: white;
-}
-
-btn-outline:hover {
-  background: white;
-  color: #1e3a8a;
-}
-
-/* Image */
-.hero-right img {
-  width: 300px;
-}
+ 
